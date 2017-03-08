@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+/* Base Styles */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: .8rem;
+	color: #656565;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	font-size: 1.3rem;
+}
+
+h2 {
+	font-size: 1.1rem;
+	color: #000;
+}
+
+
+/* Header */
+
+.main-header {
+	width: 100%;
+	background: #303f9f; 
+	color: #fff;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.name {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+/* Container Wrap */
+
+.wrap {
+	max-width: 320px;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin: 0 auto;
+}
+
+/* Form Header */
+
+.form-header {
+	text-align: center;
+	border-bottom: 4px solid #000;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.form-header h2 {
+	margin-bottom: 0;
+}
+
+.form-header p {
+	margin-top: .6em;
+}
+
+/* second border*/
+
+.second-border { 
+	background: #000; 
+	height: 2px;
+	margin-top: 5px;
+	margin-bottom: 2em;
+}
+
+/* .contact-wrap */
+
+.contact-wrap {
+	background-color: #303F9F; 
+	border-radius: 5px;
+	padding-top: 1em;
+	padding-left: .5em;
+	padding-right: .5em;
+	color: #fff;
+}
+
+
+.contact-wrap h2 {
+	color: #fff;
+}
+
+.contact-wrap input:focus,
+.contact-wrap select:focus,
+.contact-wrap textarea:focus {
+	background: #3F51B5;
+	color: #fff;
+}
+
+
+/* Form */
+
+form {
+	width: 100%;
+}
+
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin-bottom: 2em;
+}
+
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.contact-legend {
+	margin-bottom: 25px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+label.news-label {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  -webkit-transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
+  transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
+}
+
+textarea {
+	-webkit-transition: background-color 1s, border-color 1s, transform 1s;
+  	transition: background-color 1s, border-color 1s, transform 1s;
+}
+
+select {
+	font-size: 0.8rem;
+	line-height: 1.5;
+}
+
+
+textarea:focus {
+	background: #FFF;
+	color: #000;
+	text-align: left;
+	outline: none;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  text-align: left;
+}
+
+input:focus + label {
+	color: #303F9F;
+}
+
+::-webkit-input-placeholder { /* Safari/Chrome/Opera selector */
+	text-align: start;
+	font-style: italic;
+	font-size: 0.75rem;
+}
+
+textarea {
+	margin-bottom: 0;
+	background: #fff;
+	border: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 5px 4px 15px 0;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label { 
+	font-style: italic;
+}
+
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+	font-style: normal;
+	color: #303F9F;
+}
+
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+section.news-field {
+	background: rgba(255,255,255,0.1);
+	background-color: #e8eeef;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #3F51B5;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #303F9F;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+/* Form Footer */
+
+.form-footer p {
+	text-align: center;
+	font-style: italic;
+	font-size: .8rem;
+}
+
+@media screen and (min-width: 768px) {
+
+	.wrap {
+		max-width: 480px;
+	}
+
+	.contact-flex {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.contact-flex label {
+		margin-right: auto;
+		margin-top: 15px;
+		display: inline-block;
+	}
+
+	.contact-flex input,
+	.contact-flex select {
+		display: inline-block;
+		width: 70%;
+	}
+
+}
