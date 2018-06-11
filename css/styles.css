@@ -14,7 +14,6 @@ body {
 	color: #656565;
 }
 
-
 a {
 	text-decoration: none;
 }
@@ -32,12 +31,11 @@ h2 {
 	color: #000;
 }
 
-
 /* Header */
 
 .main-header {
 	width: 100%;
-	background: #303f9f; 
+	background: #303f9f;
 	color: #fff;
 	text-align: center;
 	padding-top: 1em;
@@ -77,8 +75,8 @@ h2 {
 
 /* second border*/
 
-.second-border { 
-	background: #000; 
+.second-border {
+	background: #000;
 	height: 2px;
 	margin-top: 5px;
 	margin-bottom: 2em;
@@ -87,14 +85,13 @@ h2 {
 /* .contact-wrap */
 
 .contact-wrap {
-	background-color: #303F9F; 
+	background-color: #303F9F;
 	border-radius: 5px;
 	padding-top: 1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	color: #fff;
 }
-
 
 .contact-wrap h2 {
 	color: #fff;
@@ -107,13 +104,11 @@ h2 {
 	color: #fff;
 }
 
-
 /* Form */
 
 form {
 	width: 100%;
 }
-
 
 fieldset {
 	border: none;
@@ -121,10 +116,9 @@ fieldset {
 	margin-bottom: 2em;
 }
 
-
 legend {
-  font-size: 1.4em;
-  margin-bottom: 10px;
+	font-size: 1.4em;
+	margin-bottom: 10px;
 }
 
 .contact-legend {
@@ -137,8 +131,8 @@ label {
 }
 
 label.light {
-  font-weight: 300;
-  display: inline;
+	font-weight: 300;
+	display: inline;
 }
 
 label.news-label {
@@ -152,33 +146,32 @@ input[type="search"],
 input[type="tel"],
 textarea,
 select {
-  background: rgba(255,255,255,0.1);
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  height: auto;
-  margin: 0;
-  outline: 0;
-  padding: 15px;
-  width: 100%;
-  background-color: #e8eeef;
-  color: #8a97a0;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-  margin-bottom: 30px;
-  -webkit-transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
-  transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 100%;
+	background-color: #e8eeef;
+	color: #8a97a0;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 30px;
+	-webkit-transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
+	transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
 }
 
 textarea {
 	-webkit-transition: background-color 1s, border-color 1s, transform 1s;
-  	transition: background-color 1s, border-color 1s, transform 1s;
+	transition: background-color 1s, border-color 1s, transform 1s;
 }
 
 select {
 	font-size: 0.8rem;
 	line-height: 1.5;
 }
-
 
 textarea:focus {
 	background: #FFF;
@@ -189,15 +182,16 @@ textarea:focus {
 
 input:focus,
 select:focus {
-  outline: none;
-  text-align: left;
+	outline: none;
+	text-align: left;
 }
 
-input:focus + label {
+input:focus+label {
 	color: #303F9F;
 }
 
-::-webkit-input-placeholder { /* Safari/Chrome/Opera selector */
+::-webkit-input-placeholder {
+	/* Safari/Chrome/Opera selector */
 	text-align: start;
 	font-style: italic;
 	font-size: 0.75rem;
@@ -211,47 +205,46 @@ textarea {
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 5px 4px 15px 0;
+	margin: 5px 4px 15px 0;
 }
 
-input[type="checkbox"] + label,
-input[type="radio"] + label { 
+input[type="checkbox"]+label,
+input[type="radio"]+label {
 	font-style: italic;
 }
 
-input[type="checkbox"]:checked + label,
-input[type="radio"]:checked + label {
+input[type="checkbox"]:checked+label,
+input[type="radio"]:checked+label {
 	font-style: normal;
 	color: #303F9F;
 }
 
-
 select {
-  padding: 6px;
-  height: 32px;
-  border-radius: 2px;
+	padding: 6px;
+	height: 32px;
+	border-radius: 2px;
 }
 
 section.news-field {
-	background: rgba(255,255,255,0.1);
+	background: rgba(255, 255, 255, 0.1);
 	background-color: #e8eeef;
 	padding: 5px;
 	border-radius: 5px;
 }
 
 button {
-  padding: 19px 39px 18px 39px;
-  color: #FFF;
-  background-color: #3F51B5;
-  font-size: 18px;
-  text-align: center;
-  font-style: normal;
-  border-radius: 5px;
-  width: 100%;
-  border: 1px solid #303F9F;
-  border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-  margin-bottom: 10px;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	background-color: #3F51B5;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 5px;
+	width: 100%;
+	border: 1px solid #303F9F;
+	border-width: 1px 1px 3px;
+	box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+	margin-bottom: 10px;
 }
 
 /* Form Footer */
@@ -263,26 +256,21 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-
 	.wrap {
 		max-width: 480px;
 	}
-
 	.contact-flex {
 		display: flex;
 		justify-content: space-between;
 	}
-
 	.contact-flex label {
 		margin-right: auto;
 		margin-top: 15px;
 		display: inline-block;
 	}
-
 	.contact-flex input,
 	.contact-flex select {
 		display: inline-block;
 		width: 70%;
 	}
-
 }
